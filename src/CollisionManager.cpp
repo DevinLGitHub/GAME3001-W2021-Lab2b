@@ -33,6 +33,8 @@ bool CollisionManager::squaredRadiusCheck(GameObject* object1, GameObject* objec
 
 				
 				break;
+			case OBSTACLE:
+				std::cout << "collision with obstacle" << std::endl;
 			default:
 				
 				break;

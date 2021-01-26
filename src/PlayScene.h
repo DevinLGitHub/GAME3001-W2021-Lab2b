@@ -5,6 +5,7 @@
 #include "Scene.h"
 #include "Button.h"
 #include "Label.h"
+#include "Obstacle.h"
 #include "SpaceShip.h"
 #include "Target.h"
 
@@ -31,6 +32,7 @@ private:
 
 	SpaceShip* m_pSpaceShip;
 	Target* m_pTarget;
+	Obstacle* m_pObstacle;
 	
 	// UI Items
 	
