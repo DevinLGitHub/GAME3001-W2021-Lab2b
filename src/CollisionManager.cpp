@@ -30,11 +30,8 @@ bool CollisionManager::squaredRadiusCheck(GameObject* object1, GameObject* objec
 			case TARGET:
 				std::cout << "Collision with Target!" << std::endl;
 				SoundManager::Instance().playSound("yay", 0);
-
-				
 				break;
-			case OBSTACLE:
-				std::cout << "collision with obstacle" << std::endl;
+			
 			default:
 				
 				break;
@@ -77,6 +74,10 @@ bool CollisionManager::AABBCheck(GameObject* object1, GameObject* object2)
 				std::cout << "Collision with Target!" << std::endl;
 				SoundManager::Instance().playSound("yay", 0);
 				break;
+
+			case OBSTACLE:
+				std::cout << "collision with obstacle" << std::endl;
+				SoundManager::Instance().playSound("yay", 0);
 			default:
 				
 				break;
